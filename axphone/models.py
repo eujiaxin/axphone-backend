@@ -1,3 +1,9 @@
-from django.db import models
 
+from django.db import models
+# from phonenumber_filed.modelfields import PhoneNumberField
 # Create your models here.
+
+
+class Contact(models.Model):
+    name = models.CharField(max_length=100)
+    phone_number = models.CharField(max_length=15)
