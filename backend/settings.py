@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'axphone',
-    # "phonenumber_field"
+    'corsheaders',
+    'rest_framework', ]
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
 ]
 
 MIDDLEWARE = [
