@@ -1,6 +1,6 @@
 # axphone-backend 
 
-[Django REST Framework](https://www.django-rest-framework.org/) has been used to create a simple CRUD API for the phonebook website **AxPhone**. 
+[Django REST Framework](https://www.django-rest-framework.org/) has been used to create a simple CRUD API for the phonebook website **AxPhone**. Since a large database is not required, the default SQL engine [SQLite](https://www.sqlite.org/index.html) has been used to store all details on the contacts saved.
 
 # Structure
 In the RESTful API, endpoints (URLs) define the structure of the API and how end users can interact with the frontend interface and access data from the application using HTTP methods - GET, POST, PATCH, DELETE.  
